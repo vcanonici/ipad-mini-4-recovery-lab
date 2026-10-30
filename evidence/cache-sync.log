@@ -1,0 +1,9 @@
+usb_timeout: 5
+usb_abort_timeout_min: 0
+[libusb] Waiting for the USB handle with VID: 0x5AC, PID: 0x1227
+CPID: 0x7000
+Found the USB handle.
+Now you can boot untrusted images.
+[libusb] Waiting for the USB handle with VID: 0x5AC, PID: 0x1227
+Found the USB handle.
+CACHE_SYNC result=0xcafe (expected0xcafe)

@@ -1,0 +1,20 @@
+# Primary sources and upstream credits
+
+This work depends on the original projects and research below. No third-party binary or firmware is included; upstream licenses remain applicable.
+
+- [Apple Platform Security: boot process for iPhone and iPad](https://support.apple.com/en-ca/guide/security/secb3000f149/web). Describes BootROM → LLB → iBoot on older devices, and the distinction between DFU and recovery after verification/load failures.
+- [tihmstar/img4tool: IM4R generation](https://github.com/tihmstar/img4tool/blob/bb2d63494c58993f5c8ce2ed7df207ab1063587b/img4tool/img4tool.cpp#L628), and [generator verification](https://github.com/tihmstar/img4tool/blob/bb2d63494c58993f5c8ce2ed7df207ab1063587b/img4tool/img4tool.cpp#L1093). The latter uses SHA1 over the eight-byte generator for a 20-byte BNCH.
+- [futurerestore source](https://github.com/futurerestore/futurerestore/blob/master/src/futurerestore.cpp). Documents through implementation the setenv/saveenv/iBEC reload/APNonce verification sequence. Its restore capabilities and flags are not interchangeable with every idevicerestore version.
+- [libimobiledevice/idevicerestore, pinned DFU implementation](https://github.com/libimobiledevice/idevicerestore/blob/f61b7f27a046c3180fe8369d30cc95240664ac15/src/dfu.c). Handles nonce changes in relevant transitions. The observed local client identified itself as revision `4b3e847`; this source link is supporting reference, not a claim that all revisions are identical.
+- [libimobiledevice/libirecovery](https://github.com/libimobiledevice/libirecovery). Read the actual library results and resulting stage; do not rely only on a wrapper CLI status. The tested local version was 1.3.1.
+- [verygenericname/iBoot64Patcher, reviewed local revision](https://github.com/verygenericname/iBoot64Patcher/blob/7fd877ee7d57a91d2506155752077aad51f896aa/src/main.cpp). Options `-n`, `-f`, and `-l` are separate. An older local binary lacked the newer behavior.
+- [verygenericname/liboffsetfinder64: base patches](https://github.com/verygenericname/liboffsetfinder64/blob/main/src/ibootpatchfinder64_base.cpp), including freshnonce and NVRAM logic; [iOS 14 implementation](https://github.com/verygenericname/liboffsetfinder64/blob/main/src/ibootpatchfinder64_iOS14.cpp) includes the command-table fsboot adjustment. Fixed offsets in this repository were independently checked against the actual reviewed image.
+- [palera1n/liboffsetfinder64: local boot classification](https://github.com/palera1n/liboffsetfinder64/blob/main/src/ibootpatchfinder64_iOS14.cpp). Helps explain why `-l` is not a generic permission fix.
+- [Apple Darwin IONVRAM implementation](https://github.com/apple/darwin-xnu/blob/main/iokit/Kernel/IONVRAM.cpp). The published ARM code marks `com.apple.System.boot-nonce` kernel-only; the running diagnostic kernel rejected a userland nvram write.
+- [Original modern Image4 validator analysis by amarioguy](https://amarioguy.github.io/2025/10/20/iboot_image4_validator.html). Describes local-boot BNCN/BNCH handling. **Scope limit:** its analyzed systems are A18/M4, not this A8; it supports interpretation rather than replacing an A8-specific proof.
+- [Original nonce/NVRAM research by stek29](https://stek29.rocks/2018/06/26/nvram.html).
+- [0x7ff/gaster](https://github.com/0x7ff/gaster) and [verygenericname/gaster](https://github.com/verygenericname/gaster), used for authorized RAM diagnostic access and inspection. The cache result is a measured observation of this session.
+- [verygenericname/SSHRD_Script](https://github.com/verygenericname/SSHRD_Script), [surrealra1n](https://github.com/pwnerblu/surrealra1n), [mineek/seprmvr64](https://github.com/mineek/seprmvr64), and the upstream tools they credit.
+- [Apple XNU proc_info.h](https://github.com/apple-oss-distributions/xnu/blob/main/bsd/sys/proc_info.h), consulted for a read-only process observer used to distinguish silent work from missing processes.
+
+Some links follow upstream branches and can change. The local revisions and exact input hashes in FINDINGS.md are the evidence for this case. A repository link is not proof that an upstream author endorsed this procedure.

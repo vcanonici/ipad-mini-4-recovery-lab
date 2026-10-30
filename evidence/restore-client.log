@@ -1,0 +1,529 @@
+22:42:58.608    <Info> idevicerestore 1.0.0-git-4b3e847 (libirecovery 1.3.1, libtatsu 1.0.5)
+22:42:58.633    <Info> Found device in Restore mode
+22:42:58.642    <Info> INFO: device serial number is F9GSNGW3GHKL
+22:42:58.643    <Info> ECID: 2662227027247654
+22:42:58.643    <Info> Identified device as j96ap, iPad5,1
+22:42:58.643    <Info> Device Product Version: N/A
+22:42:58.643    <Info> Device Product Build: N/A
+22:42:58.643    <Info> Extracting BuildManifest from IPSW
+22:42:58.649    <Info> IPSW Product Version: 15.8.8
+22:42:58.649    <Info> IPSW Product Build: 19H422 Major: 19
+22:42:58.655    <Info> Device supports Image4: true
+22:42:58.655    <Info> Variant: Customer Erase Install (IPSW)
+22:42:58.655    <Info> This restore will erase all device data.
+22:42:58.655    <Info> Checking IPSW for required components...
+22:42:58.660    <Info> All required components found in IPSW
+22:42:58.660    <Info> Getting ApNonce failed
+22:42:58.660   <Error> Device is in an invalid state
+22:42:58.660  <Notice> Unable to get nonce from device
+22:42:58.660    <Info> About to restore device... 
+22:42:58.666    <Info> Connecting now...
+22:42:58.669    <Info> Connected to com.apple.mobile.restored, version 15
+22:42:58.669    <Info> Device SSHRD_Script Sep 22 2022 18:56:50 has successfully entered restore mode
+22:42:58.671    <Info> Hardware Information:
+22:42:58.671    <Info> BoardID: 8
+22:42:58.671    <Info> ChipID: 28672
+22:42:58.671    <Info> UniqueChipID: 2662227027247654
+22:42:58.671    <Info> ProductionMode: true
+22:42:58.674    <Info> Previous restore exit status: 0x100
+22:42:58.674    <Info> Starting Reverse Proxy
+22:42:59.040 <Verbose> ReverseProxy[Ctrl]: (status=1) Ready
+22:42:59.040    <Info> Device will not use nonce slots.
+22:42:59.076 <Verbose> Checkpoint completed id: 0x655 (unknown) result=0
+22:42:59.085 <Verbose> Checkpoint started   id: 0x604 (unknown)
+22:42:59.095 <Verbose> Checkpoint completed id: 0x604 (unknown) result=0
+22:42:59.095 <Verbose> Checkpoint started   id: 0x68F (unknown)
+22:42:59.102 <Verbose> Checkpoint completed id: 0x68F (unknown) result=0
+22:42:59.106 <Verbose> Checkpoint started   id: 0x608 (unknown)
+22:42:59.112 <Verbose> Checkpoint completed id: 0x608 (unknown) result=0
+22:42:59.116 <Verbose> Checkpoint started   id: 0x60B (unknown)
+22:42:59.116    <Info> About to send RootTicket...
+22:42:59.116    <Info> Sending RootTicket now...
+22:42:59.116    <Info> Done sending RootTicket
+22:42:59.123 <Verbose> Checkpoint completed id: 0x60B (unknown) result=0
+22:42:59.127 <Verbose> Checkpoint started   id: 0x60D (unknown)
+22:42:59.128    <Info> Waiting for NAND (28)
+22:42:59.167 <Verbose> Checkpoint completed id: 0x60D (unknown) result=0
+22:42:59.171 <Verbose> Checkpoint started   id: 0x60E (unknown)
+22:42:59.175 <Verbose> Checkpoint completed id: 0x60E (unknown) result=0
+22:42:59.179 <Verbose> Checkpoint started   id: 0x60F (unknown)
+22:42:59.285 <Verbose> Checkpoint completed id: 0x60F (unknown) result=0
+22:42:59.289 <Verbose> Checkpoint started   id: 0x65C (unknown)
+22:42:59.394 <Verbose> Checkpoint completed id: 0x65C (unknown) result=0
+22:42:59.398 <Verbose> Checkpoint started   id: 0x610 (unknown)
+22:42:59.515 <Verbose> Checkpoint completed id: 0x610 (unknown) result=0
+22:42:59.519 <Verbose> Checkpoint started   id: 0x613 (unknown)
+22:42:59.539 <Verbose> Checkpoint completed id: 0x613 (unknown) result=0
+22:42:59.543 <Verbose> Checkpoint started   id: 0x67E (unknown)
+22:42:59.547 <Verbose> Checkpoint completed id: 0x67E (unknown) result=0
+22:42:59.551 <Verbose> Checkpoint started   id: 0x609 (unknown)
+22:42:59.552    <Info> About to send NORData...
+22:42:59.552    <Info> Found firmware path Firmware/all_flash
+22:42:59.552    <Info> Getting firmware manifest from build identity
+22:42:59.553    <Info> Extracting LLB.ipad5.RELEASE.im4p (Firmware/all_flash/LLB.ipad5.RELEASE.im4p)...
+22:42:59.560    <Info> Personalizing IMG4 component LLB...
+22:42:59.560    <Info> Extracting applelogo@2x~ipad.im4p (Firmware/all_flash/applelogo@2x~ipad.im4p)...
+22:42:59.560    <Info> Personalizing IMG4 component AppleLogo...
+22:42:59.560    <Info> Extracting batterycharging0@2x~ipad.im4p (Firmware/all_flash/batterycharging0@2x~ipad.im4p)...
+22:42:59.560    <Info> Personalizing IMG4 component BatteryCharging0...
+22:42:59.560    <Info> Extracting batterycharging1@2x~ipad.im4p (Firmware/all_flash/batterycharging1@2x~ipad.im4p)...
+22:42:59.561    <Info> Personalizing IMG4 component BatteryCharging1...
+22:42:59.561    <Info> Extracting batteryfull@2x~ipad.im4p (Firmware/all_flash/batteryfull@2x~ipad.im4p)...
+22:42:59.562    <Info> Personalizing IMG4 component BatteryFull...
+22:42:59.562    <Info> Extracting batterylow0@2x~ipad.im4p (Firmware/all_flash/batterylow0@2x~ipad.im4p)...
+22:42:59.562    <Info> Personalizing IMG4 component BatteryLow0...
+22:42:59.562    <Info> Extracting batterylow1@2x~ipad.im4p (Firmware/all_flash/batterylow1@2x~ipad.im4p)...
+22:42:59.563    <Info> Personalizing IMG4 component BatteryLow1...
+22:42:59.563    <Info> Extracting glyphplugin@2x~ipad-lightning.im4p (Firmware/all_flash/glyphplugin@2x~ipad-lightning.im4p)...
+22:42:59.563    <Info> Personalizing IMG4 component BatteryPlugin...
+22:42:59.563    <Info> Extracting DeviceTree.j96ap.im4p (Firmware/all_flash/DeviceTree.j96ap.im4p)...
+22:42:59.564    <Info> Personalizing IMG4 component DeviceTree...
+22:42:59.564    <Info> Extracting recoverymode@2x~ipad-lightning.im4p (Firmware/all_flash/recoverymode@2x~ipad-lightning.im4p)...
+22:42:59.567    <Info> Personalizing IMG4 component RecoveryMode...
+22:42:59.568    <Info> Extracting iBoot.ipad5.RELEASE.im4p (Firmware/all_flash/iBoot.ipad5.RELEASE.im4p)...
+22:42:59.570    <Info> Personalizing IMG4 component iBoot...
+22:42:59.570    <Info> Extracting sep-firmware.j96.RELEASE.im4p (Firmware/all_flash/sep-firmware.j96.RELEASE.im4p)...
+22:42:59.578    <Info> Personalizing IMG4 component RestoreSEP...
+22:42:59.581    <Info> Extracting sep-firmware.j96.RELEASE.im4p (Firmware/all_flash/sep-firmware.j96.RELEASE.im4p)...
+22:42:59.583    <Info> Personalizing IMG4 component SEP...
+22:42:59.585    <Info> Sending NORData now...
+22:42:59.960    <Info> Done sending NORData
+22:43:04.220 <Verbose> Checkpoint completed id: 0x609 (unknown) result=0
+22:43:04.224 <Verbose> Checkpoint started   id: 0x693 (unknown)
+22:43:04.228 <Verbose> Checkpoint completed id: 0x693 (unknown) result=0
+22:43:04.233 <Verbose> Checkpoint started   id: 0x665 (unknown)
+22:43:04.233    <Info> Unmounting filesystems (29)
+22:43:04.235    <Info> Unmounting filesystems (29)
+22:43:04.238    <Info> Unmounting filesystems (29)
+22:43:04.239    <Info> Unmounting filesystems (29)
+22:43:04.240    <Info> Unmounting filesystems (29)
+22:43:04.244 <Verbose> Checkpoint completed id: 0x665 (unknown) result=0
+22:43:04.248 <Verbose> Checkpoint started   id: 0x614 (unknown)
+22:43:04.754 <Verbose> Checkpoint completed id: 0x614 (unknown) result=0
+22:43:04.758 <Verbose> Checkpoint started   id: 0x696 (unknown)
+22:43:04.762 <Verbose> Checkpoint completed id: 0x696 (unknown) result=0
+22:43:04.766 <Verbose> Checkpoint started   id: 0x6A3 (unknown)
+22:43:04.770 <Verbose> Checkpoint completed id: 0x6A3 (unknown) result=0
+22:43:04.774 <Verbose> Checkpoint started   id: 0x69F (unknown)
+22:43:04.778 <Verbose> Checkpoint completed id: 0x69F (unknown) result=0
+22:43:04.782 <Verbose> Checkpoint started   id: 0x654 (unknown)
+22:43:04.806 <Verbose> Checkpoint completed id: 0x654 (unknown) result=0
+22:43:04.810 <Verbose> Checkpoint started   id: 0x697 (unknown)
+22:43:04.813 <Verbose> Checkpoint completed id: 0x697 (unknown) result=0
+22:43:04.818 <Verbose> Checkpoint started   id: 0x615 (unknown)
+22:43:04.822 <Verbose> Checkpoint completed id: 0x615 (unknown) result=0
+22:43:04.826 <Verbose> Checkpoint started   id: 0x616 (unknown)
+22:43:06.791    <Info> About to send FDR Trust data...
+22:43:06.791    <Info> Sending FDR Trust data now...
+22:43:06.791    <Info> Done sending FDR Trust Data
+22:43:06.806 <Verbose> Checkpoint completed id: 0x616 (unknown) result=0
+22:43:06.811 <Verbose> Checkpoint started   id: 0x617 (unknown)
+22:43:06.833 <Verbose> Checkpoint completed id: 0x617 (unknown) result=0
+22:43:06.838 <Verbose> Checkpoint started   id: 0x618 (unknown)
+22:43:06.845 <Verbose> Checkpoint completed id: 0x618 (unknown) result=0
+22:43:06.850 <Verbose> Checkpoint started   id: 0x619 (unknown)
+22:43:06.851    <Info> Checking for uncollected logs (44)
+22:43:06.856 <Verbose> Checkpoint completed id: 0x619 (unknown) result=0
+22:43:06.862 <Verbose> Checkpoint started   id: 0x61A (unknown)
+22:43:06.863    <Info> Checking for uncollected logs (44)
+22:43:08.300 <Verbose> Checkpoint completed id: 0x61A (unknown) result=0
+22:43:08.305 <Verbose> Checkpoint started   id: 0x61B (unknown)
+22:43:08.830 <Verbose> ReverseProxy[Ctrl]: (status=3) Connect Request
+22:43:08.833 <Verbose> ReverseProxy[Conn]: (status=1) Ready
+22:43:09.013 <Verbose> ReverseProxy[Conn]: (status=2) Terminated
+22:43:09.523 <Verbose> Checkpoint completed id: 0x61B (unknown) result=0
+22:43:09.529 <Verbose> Checkpoint started   id: 0x661 (unknown)
+22:43:09.875 <Verbose> Checkpoint completed id: 0x661 (unknown) result=0
+22:43:09.880 <Verbose> Checkpoint started   id: 0x61D (unknown)
+22:43:09.882    <Info> Unmounting filesystems (29)
+22:43:09.883    <Info> Unmounting filesystems (29)
+22:43:09.973    <Info> Unmounting filesystems (29)
+22:43:10.128    <Info> Unmounting filesystems (29)
+22:43:10.130    <Info> Unmounting filesystems (29)
+22:43:10.317 <Verbose> Checkpoint completed id: 0x61D (unknown) result=0
+22:43:10.322 <Verbose> Checkpoint started   id: 0x64E (unknown)
+22:43:12.339 <Verbose> Checkpoint completed id: 0x64E (unknown) result=0
+22:43:12.343 <Verbose> Checkpoint started   id: 0x61F (unknown)
+22:43:12.374 <Verbose> Checkpoint completed id: 0x61F (unknown) result=0
+22:43:12.380 <Verbose> Checkpoint started   id: 0x68A (unknown)
+22:43:12.384 <Verbose> Checkpoint completed id: 0x68A (unknown) result=0
+22:43:12.390 <Verbose> Checkpoint started   id: 0x621 (unknown)
+22:43:12.391    <Info> Creating partition map (11)
+22:43:12.808 <Verbose> Checkpoint completed id: 0x621 (unknown) result=0
+22:43:12.813 <Verbose> Checkpoint started   id: 0x677 (unknown)
+22:43:12.818 <Verbose> Checkpoint started   id: 0x660 (unknown)
+22:43:12.822 <Verbose> Checkpoint completed id: 0x660 (unknown) result=0
+22:43:12.827 <Verbose> Checkpoint started   id: 0x622 (unknown)
+22:43:12.843 <Verbose> Checkpoint completed id: 0x622 (unknown) result=0
+22:43:12.848 <Verbose> Checkpoint started   id: 0x65D (unknown)
+22:43:12.854 <Verbose> Checkpoint completed id: 0x65D (unknown) result=0
+22:43:12.859 <Verbose> Checkpoint started   id: 0x160D (unknown)
+22:43:12.864 <Verbose> Checkpoint completed id: 0x160D (unknown) result=0
+22:43:12.870 <Verbose> Checkpoint started   id: 0x658 (unknown)
+22:43:12.881    <Info> Creating filesystem (12)
+22:43:16.002 <Verbose> Checkpoint completed id: 0x658 (unknown) result=0
+22:43:16.007 <Verbose> Checkpoint started   id: 0x659 (unknown)
+22:43:16.028 <Verbose> Checkpoint completed id: 0x659 (unknown) result=0
+22:43:16.033 <Verbose> Checkpoint started   id: 0x65A (unknown)
+22:43:16.038 <Verbose> Checkpoint completed id: 0x65A (unknown) result=0
+22:43:16.043 <Verbose> Checkpoint started   id: 0x65B (unknown)
+22:43:17.915    <Info> About to send filesystem...
+22:43:17.915 <Verbose> Connecting to ASR on port 12345
+22:43:19.982 <Verbose> Retrying connection...
+22:43:19.984    <Info> Connected to ASR
+22:43:19.984    <Info> Validating the filesystem
+22:43:22.359    <Info> Filesystem validated
+22:43:22.359    <Info> Sending filesystem now...
+22:46:39.052    <Info> Done sending filesystem
+22:46:41.324    <Info> Verifying restore (14)
+22:48:11.761 <Verbose> Checkpoint completed id: 0x65B (unknown) result=0
+22:48:11.766 <Verbose> Checkpoint started   id: 0x680 (unknown)
+22:48:12.818 <Verbose> Checkpoint completed id: 0x680 (unknown) result=0
+22:48:12.823 <Verbose> Checkpoint started   id: 0x675 (unknown)
+22:48:12.829 <Verbose> Checkpoint completed id: 0x675 (unknown) result=0
+22:48:12.834 <Verbose> Checkpoint started   id: 0x68C (unknown)
+22:48:13.376 <Verbose> Checkpoint completed id: 0x68C (unknown) result=0
+22:48:13.381 <Verbose> Checkpoint started   id: 0x626 (unknown)
+22:48:13.382    <Info> Unmounting filesystems (29)
+22:48:13.384    <Info> Unmounting filesystems (29)
+22:48:13.385    <Info> Unmounting filesystems (29)
+22:48:13.387    <Info> Unmounting filesystems (29)
+22:48:13.388    <Info> Unmounting filesystems (29)
+22:48:14.060    <Info> Checking filesystems (15)
+22:49:08.480    <Info> Checking filesystems (15)
+22:49:08.482    <Info> Checking filesystems (15)
+22:49:08.484    <Info> Mounting filesystems (16)
+22:49:09.063    <Info> Mounting filesystems (16)
+22:49:09.270    <Info> Mounting filesystems (16)
+22:49:09.816 <Verbose> Checkpoint completed id: 0x626 (unknown) result=0
+22:49:09.821 <Verbose> Checkpoint started   id: 0x662 (unknown)
+22:49:09.834 <Verbose> Checkpoint completed id: 0x662 (unknown) result=0
+22:49:09.839 <Verbose> Checkpoint completed id: 0x677 (unknown) result=0
+22:49:09.844 <Verbose> Checkpoint started   id: 0x67A (unknown)
+22:49:09.849 <Verbose> Checkpoint completed id: 0x67A (unknown) result=0
+22:49:09.854 <Verbose> Checkpoint started   id: 0x67B (unknown)
+22:49:09.859 <Verbose> Checkpoint started   id: 0x100000627 (unknown)
+22:49:09.883 <Verbose> Checkpoint completed id: 0x100000627 (unknown) result=0
+22:49:09.888 <Verbose> Checkpoint started   id: 0x10000069A (unknown)
+22:49:09.904 <Verbose> Checkpoint completed id: 0x10000069A (unknown) result=0
+22:49:09.909 <Verbose> Checkpoint started   id: 0x69B (unknown)
+22:49:10.084 <Verbose> Checkpoint completed id: 0x69B (unknown) result=0
+22:49:10.090 <Verbose> Checkpoint started   id: 0xFFFFFFFF00000652 (unknown)
+22:49:10.095 <Verbose> Checkpoint completed id: 0xFFFFFFFF00000652 (unknown) result=0
+22:49:10.100 <Verbose> Checkpoint started   id: 0x100000634 (unknown)
+22:49:10.221 <Verbose> Checkpoint completed id: 0x100000634 (unknown) result=0
+22:49:10.226 <Verbose> Checkpoint started   id: 0x10000067D (unknown)
+22:49:10.232 <Verbose> Checkpoint completed id: 0x10000067D (unknown) result=0
+22:49:10.237 <Verbose> Checkpoint started   id: 0x635 (unknown)
+22:49:10.256 <Verbose> Checkpoint started   id: 0x100001300 (unknown)
+22:49:10.258    <Info> Unknown operation (80)
+22:49:10.260    <Info> Sending IsiBootEANFirmware image list
+22:49:10.263    <Info> Sending IsiBootNonEssentialFirmware image list
+22:49:13.302    <Info> Flashing firmware (18)
+22:49:14.191 <Verbose> Checkpoint completed id: 0x100001300 (unknown) result=0
+22:49:14.196 <Verbose> Checkpoint started   id: 0x100001312 (unknown)
+22:49:14.197    <Info> Unknown operation (80)
+22:49:14.197    <Info> Sending IsEarlyAccessFirmware image list
+22:49:14.200    <Info> Sending IsiBootEANFirmware image list
+22:49:14.203    <Info> Sending IsiBootNonEssentialFirmware image list
+22:49:14.209 <Verbose> Checkpoint completed id: 0x100001312 (unknown) result=0
+22:49:14.215 <Verbose> Checkpoint started   id: 0x130A (unknown)
+22:49:14.216    <Info> Requesting FUD data (36)
+22:49:14.216    <Info> Found IsFUDFirmware component Ap,SystemVolumeCanonicalMetadata
+22:49:14.216    <Info> Found IsFUDFirmware component RestoreTrustCache
+22:49:14.216    <Info> Found IsFUDFirmware component StaticTrustCache
+22:49:14.216    <Info> Found IsFUDFirmware component SystemVolume
+22:49:14.216    <Info> Sending IsFUDFirmware image list
+22:49:14.220    <Info> Extracting 098-68727-067.dmg.mtree (Firmware/098-68727-067.dmg.mtree)...
+22:49:14.292    <Info> Personalizing IMG4 component Ap,SystemVolumeCanonicalMetadata...
+22:49:14.339    <Info> Sending IsFUDFirmware for Ap,SystemVolumeCanonicalMetadata...
+22:49:16.264    <Info> Extracting 098-68700-067.dmg.trustcache (Firmware/098-68700-067.dmg.trustcache)...
+22:49:16.265    <Info> Personalizing IMG4 component RestoreTrustCache...
+22:49:16.265    <Info> Sending IsFUDFirmware for RestoreTrustCache...
+22:49:16.270    <Info> Extracting 098-68727-067.dmg.trustcache (Firmware/098-68727-067.dmg.trustcache)...
+22:49:16.270    <Info> Personalizing IMG4 component StaticTrustCache...
+22:49:16.270    <Info> Sending IsFUDFirmware for StaticTrustCache...
+22:49:16.279    <Info> Extracting 098-68727-067.dmg.root_hash (Firmware/098-68727-067.dmg.root_hash)...
+22:49:16.279    <Info> Personalizing IMG4 component SystemVolume...
+22:49:16.279    <Info> Sending IsFUDFirmware for SystemVolume...
+22:49:16.295 <Verbose> Checkpoint completed id: 0x130A (unknown) result=0
+22:49:16.299 <Verbose> Checkpoint started   id: 0x100001301 (unknown)
+22:49:16.300    <Info> Updating gas gauge software (47)
+22:49:16.306 <Verbose> Checkpoint completed id: 0x100001301 (unknown) result=0
+22:49:16.310 <Verbose> Checkpoint started   id: 0x100001302 (unknown)
+22:49:16.317    <Info> Updating gas gauge software (47)
+22:49:16.325 <Verbose> Checkpoint completed id: 0x100001302 (unknown) result=0
+22:49:16.332 <Verbose> Checkpoint started   id: 0x100001304 (unknown)
+22:49:16.333    <Info> Updating Stockholm (55)
+22:49:17.311 <Verbose> Checkpoint completed id: 0x100001304 (unknown) result=0
+22:49:17.311 <Verbose> Checkpoint FAILURE id: 0x100001304 result=0: [0]D(update_stockholm: NfRestore Failed. NfResult: 9)[1]LD(Error 0x00ff at _NFRestore:1863: 0 (null))
+22:49:17.315 <Verbose> Checkpoint started   id: 0x100001304 (unknown)
+22:49:17.315 <Verbose> Checkpoint FAILURE id: 0x100001304 result=0: [0]D(update_stockholm: NfRestore Failed. NfResult: 9)[1]LD(Error 0x00ff at _NFRestore:1863: 0 (null))
+22:49:17.316    <Info> Updating Stockholm (55)
+22:49:18.140 <Verbose> Checkpoint completed id: 0x100001304 (unknown) result=0
+22:49:18.140 <Verbose> Checkpoint FAILURE id: 0x100001304 result=0: [0]D(update_stockholm: NfRestore Failed. NfResult: 9)[1]LD(Error 0x00ff at _NFRestore:1863: 0 (null))
+22:49:18.143 <Verbose> Checkpoint started   id: 0x100001304 (unknown)
+22:49:18.143 <Verbose> Checkpoint FAILURE id: 0x100001304 result=0: [0]D(update_stockholm: NfRestore Failed. NfResult: 9)[1]LD(Error 0x00ff at _NFRestore:1863: 0 (null))
+22:49:18.144    <Info> Updating Stockholm (55)
+22:49:18.969 <Verbose> Checkpoint completed id: 0x100001304 (unknown) result=0
+22:49:18.969 <Verbose> Checkpoint FAILURE id: 0x100001304 result=0: [0]D(update_stockholm: NfRestore Failed. NfResult: 9)[1]LD(Error 0x00ff at _NFRestore:1863: 0 (null))
+22:49:18.972 <Verbose> Checkpoint started   id: 0x100001304 (unknown)
+22:49:18.972 <Verbose> Checkpoint FAILURE id: 0x100001304 result=0: [0]D(update_stockholm: NfRestore Failed. NfResult: 9)[1]LD(Error 0x00ff at _NFRestore:1863: 0 (null))
+22:49:18.973    <Info> Updating Stockholm (55)
+22:49:19.797 <Verbose> Checkpoint completed id: 0x100001304 (unknown) result=0
+22:49:19.797 <Verbose> Checkpoint FAILURE id: 0x100001304 result=0: [0]D(update_stockholm: NfRestore Failed. NfResult: 9)[1]LD(Error 0x00ff at _NFRestore:1863: 0 (null))
+22:49:19.800 <Verbose> Checkpoint started   id: 0x100001304 (unknown)
+22:49:19.800 <Verbose> Checkpoint FAILURE id: 0x100001304 result=0: [0]D(update_stockholm: NfRestore Failed. NfResult: 9)[1]LD(Error 0x00ff at _NFRestore:1863: 0 (null))
+22:49:19.801    <Info> Updating Stockholm (55)
+22:49:20.625 <Verbose> Checkpoint completed id: 0x100001304 (unknown) result=0
+22:49:20.625 <Verbose> Checkpoint FAILURE id: 0x100001304 result=0: [0]D(update_stockholm: NfRestore Failed. NfResult: 9)[1]LD(Error 0x00ff at _NFRestore:1863: 0 (null))
+22:49:20.627 <Verbose> Checkpoint started   id: 0x100001304 (unknown)
+22:49:20.627 <Verbose> Checkpoint FAILURE id: 0x100001304 result=0: [0]D(update_stockholm: NfRestore Failed. NfResult: 9)[1]LD(Error 0x00ff at _NFRestore:1863: 0 (null))
+22:49:20.628    <Info> Updating Stockholm (55)
+22:49:21.454 <Verbose> Checkpoint completed id: 0x100001304 (unknown) result=-1
+22:49:21.454 <Verbose> Checkpoint FAILURE id: 0x100001304 result=-1: [0]D(update_stockholm: NfRestore Failed. NfResult: 9)[1]LD(Error 0x00ff at _NFRestore:1863: 0 (null))
+22:49:21.462 <Verbose> Checkpoint started   id: 0x10000130C (unknown)
+22:49:21.468    <Info> Requesting FUD data (36)
+22:49:21.469    <Info> Found IsFUDFirmware component Ap,SystemVolumeCanonicalMetadata
+22:49:21.469    <Info> Found IsFUDFirmware component RestoreTrustCache
+22:49:21.469    <Info> Found IsFUDFirmware component StaticTrustCache
+22:49:21.469    <Info> Found IsFUDFirmware component SystemVolume
+22:49:21.469    <Info> Sending IsFUDFirmware image list
+22:49:21.473    <Info> Extracting 098-68727-067.dmg.mtree (Firmware/098-68727-067.dmg.mtree)...
+22:49:21.526    <Info> Personalizing IMG4 component Ap,SystemVolumeCanonicalMetadata...
+22:49:21.557    <Info> Sending IsFUDFirmware for Ap,SystemVolumeCanonicalMetadata...
+22:49:23.480    <Info> Extracting 098-68700-067.dmg.trustcache (Firmware/098-68700-067.dmg.trustcache)...
+22:49:23.480    <Info> Personalizing IMG4 component RestoreTrustCache...
+22:49:23.480    <Info> Sending IsFUDFirmware for RestoreTrustCache...
+22:49:23.489    <Info> Extracting 098-68727-067.dmg.root_hash (Firmware/098-68727-067.dmg.root_hash)...
+22:49:23.489    <Info> Personalizing IMG4 component SystemVolume...
+22:49:23.489    <Info> Sending IsFUDFirmware for SystemVolume...
+22:49:23.499 <Verbose> Checkpoint completed id: 0x10000130C (unknown) result=0
+22:49:23.505 <Verbose> Checkpoint started   id: 0x100001306 (unknown)
+22:49:23.510 <Verbose> Checkpoint completed id: 0x100001306 (unknown) result=0
+22:49:23.515 <Verbose> Checkpoint started   id: 0x100001307 (unknown)
+22:49:23.521 <Verbose> Checkpoint completed id: 0x100001307 (unknown) result=0
+22:49:23.527 <Verbose> Checkpoint started   id: 0x3242443300001308 (unknown)
+22:49:23.533 <Verbose> Checkpoint completed id: 0x3242443300001308 (unknown) result=0
+22:49:23.538 <Verbose> Checkpoint started   id: 0x130E (unknown)
+22:49:23.545 <Verbose> Checkpoint completed id: 0x130E (unknown) result=0
+22:49:23.550 <Verbose> Checkpoint started   id: 0x10000130F (unknown)
+22:49:23.557 <Verbose> Checkpoint completed id: 0x10000130F (unknown) result=0
+22:49:23.563 <Verbose> Checkpoint started   id: 0x130B (unknown)
+22:49:23.576 <Verbose> Checkpoint completed id: 0x130B (unknown) result=0
+22:49:23.581 <Verbose> Checkpoint started   id: 0x100001303 (unknown)
+22:49:23.588 <Verbose> Checkpoint completed id: 0x100001303 (unknown) result=0
+22:49:23.598 <Verbose> Checkpoint started   id: 0x1310 (unknown)
+22:49:23.607 <Verbose> Checkpoint completed id: 0x1310 (unknown) result=0
+22:49:23.615 <Verbose> Checkpoint started   id: 0x100001309 (unknown)
+22:49:23.617    <Info> Updating SE Firmware (59)
+22:49:23.633    <Info> Sending FirmwareResponsePreflight now...
+22:49:23.633    <Info> Done sending FirmwareUpdaterPreflight response
+22:49:23.685 <Verbose> Checkpoint completed id: 0x100001309 (unknown) result=0
+22:49:23.685 <Verbose> Checkpoint FAILURE id: 0x100001309 result=0: [0]D(update_generic_firmware: failed to create SE updater)[1]LD([ERR] SEUpdaterCreate: (9) Fail to load NFC stack)
+22:49:23.688 <Verbose> Checkpoint started   id: 0x100001309 (unknown)
+22:49:23.688 <Verbose> Checkpoint FAILURE id: 0x100001309 result=0: [0]D(update_generic_firmware: failed to create SE updater)[1]LD([ERR] SEUpdaterCreate: (9) Fail to load NFC stack)
+22:49:23.689    <Info> Updating SE Firmware (59)
+22:49:23.690    <Info> Sending FirmwareResponsePreflight now...
+22:49:23.690    <Info> Done sending FirmwareUpdaterPreflight response
+22:49:23.712 <Verbose> Checkpoint completed id: 0x100001309 (unknown) result=0
+22:49:23.712 <Verbose> Checkpoint FAILURE id: 0x100001309 result=0: [0]D(update_generic_firmware: failed to create SE updater)[1]LD([ERR] SEUpdaterCreate: (9) Fail to load NFC stack)
+22:49:23.716 <Verbose> Checkpoint started   id: 0x100001309 (unknown)
+22:49:23.716 <Verbose> Checkpoint FAILURE id: 0x100001309 result=0: [0]D(update_generic_firmware: failed to create SE updater)[1]LD([ERR] SEUpdaterCreate: (9) Fail to load NFC stack)
+22:49:23.717    <Info> Updating SE Firmware (59)
+22:49:23.719    <Info> Sending FirmwareResponsePreflight now...
+22:49:23.719    <Info> Done sending FirmwareUpdaterPreflight response
+22:49:23.741 <Verbose> Checkpoint completed id: 0x100001309 (unknown) result=0
+22:49:23.741 <Verbose> Checkpoint FAILURE id: 0x100001309 result=0: [0]D(update_generic_firmware: failed to create SE updater)[1]LD([ERR] SEUpdaterCreate: (9) Fail to load NFC stack)
+22:49:23.744 <Verbose> Checkpoint started   id: 0x100001309 (unknown)
+22:49:23.744 <Verbose> Checkpoint FAILURE id: 0x100001309 result=0: [0]D(update_generic_firmware: failed to create SE updater)[1]LD([ERR] SEUpdaterCreate: (9) Fail to load NFC stack)
+22:49:23.745    <Info> Updating SE Firmware (59)
+22:49:23.747    <Info> Sending FirmwareResponsePreflight now...
+22:49:23.747    <Info> Done sending FirmwareUpdaterPreflight response
+22:49:23.768 <Verbose> Checkpoint completed id: 0x100001309 (unknown) result=0
+22:49:23.768 <Verbose> Checkpoint FAILURE id: 0x100001309 result=0: [0]D(update_generic_firmware: failed to create SE updater)[1]LD([ERR] SEUpdaterCreate: (9) Fail to load NFC stack)
+22:49:23.770 <Verbose> Checkpoint started   id: 0x100001309 (unknown)
+22:49:23.770 <Verbose> Checkpoint FAILURE id: 0x100001309 result=0: [0]D(update_generic_firmware: failed to create SE updater)[1]LD([ERR] SEUpdaterCreate: (9) Fail to load NFC stack)
+22:49:23.772    <Info> Updating SE Firmware (59)
+22:49:23.773    <Info> Sending FirmwareResponsePreflight now...
+22:49:23.773    <Info> Done sending FirmwareUpdaterPreflight response
+22:49:23.796 <Verbose> Checkpoint completed id: 0x100001309 (unknown) result=0
+22:49:23.796 <Verbose> Checkpoint FAILURE id: 0x100001309 result=0: [0]D(update_generic_firmware: failed to create SE updater)[1]LD([ERR] SEUpdaterCreate: (9) Fail to load NFC stack)
+22:49:23.799 <Verbose> Checkpoint started   id: 0x100001309 (unknown)
+22:49:23.799 <Verbose> Checkpoint FAILURE id: 0x100001309 result=0: [0]D(update_generic_firmware: failed to create SE updater)[1]LD([ERR] SEUpdaterCreate: (9) Fail to load NFC stack)
+22:49:23.800    <Info> Updating SE Firmware (59)
+22:49:23.801    <Info> Sending FirmwareResponsePreflight now...
+22:49:23.801    <Info> Done sending FirmwareUpdaterPreflight response
+22:49:23.823 <Verbose> Checkpoint completed id: 0x100001309 (unknown) result=-1
+22:49:23.823 <Verbose> Checkpoint FAILURE id: 0x100001309 result=-1: [0]D(update_generic_firmware: failed to create SE updater)[1]LD([ERR] SEUpdaterCreate: (9) Fail to load NFC stack)
+22:49:23.833 <Verbose> Checkpoint started   id: 0x130D (unknown)
+22:49:23.855 <Verbose> Checkpoint completed id: 0x130D (unknown) result=0
+22:49:23.860 <Verbose> Checkpoint started   id: 0x100001311 (unknown)
+22:49:23.861    <Info> Updating Veridian (66)
+22:49:23.868 <Verbose> Checkpoint completed id: 0x100001311 (unknown) result=0
+22:49:23.877 <Verbose> Checkpoint started   id: 0x100001316 (unknown)
+22:49:23.878    <Info> Unknown operation (79)
+22:49:23.885 <Verbose> Checkpoint completed id: 0x100001316 (unknown) result=0
+22:49:23.894 <Verbose> Checkpoint started   id: 0x100001318 (unknown)
+22:49:23.895    <Info> Unknown operation (82)
+22:49:23.903 <Verbose> Checkpoint completed id: 0x100001318 (unknown) result=0
+22:49:23.912 <Verbose> Checkpoint completed id: 0x635 (unknown) result=0
+22:49:23.916 <Verbose> Checkpoint started   id: 0x10000063C (unknown)
+22:49:24.035 <Verbose> Checkpoint completed id: 0x10000063C (unknown) result=0
+22:49:24.040 <Verbose> Checkpoint started   id: 0x100000668 (unknown)
+22:49:24.047 <Verbose> Checkpoint started   id: 0x1501 (unknown)
+22:49:24.054 <Verbose> Checkpoint completed id: 0x1501 (unknown) result=0
+22:49:24.059 <Verbose> Checkpoint started   id: 0x1500 (unknown)
+22:49:24.065 <Verbose> Checkpoint completed id: 0x1500 (unknown) result=0
+22:49:24.070 <Verbose> Checkpoint started   id: 0x1503 (unknown)
+22:49:24.078 <Verbose> Checkpoint completed id: 0x1503 (unknown) result=0
+22:49:24.083 <Verbose> Checkpoint started   id: 0x1319 (unknown)
+22:49:24.088 <Verbose> Checkpoint completed id: 0x1319 (unknown) result=0
+22:49:24.093 <Verbose> Checkpoint started   id: 0x131A (unknown)
+22:49:24.099 <Verbose> Checkpoint completed id: 0x131A (unknown) result=0
+22:49:24.105 <Verbose> Checkpoint started   id: 0x1504 (unknown)
+22:49:24.106    <Info> Requesting EAN Data (74)
+22:49:24.114 <Verbose> Checkpoint completed id: 0x1504 (unknown) result=0
+22:49:24.119 <Verbose> Checkpoint started   id: 0x1314 (unknown)
+22:49:24.125 <Verbose> Checkpoint completed id: 0x1314 (unknown) result=0
+22:49:24.130 <Verbose> Checkpoint completed id: 0x100000668 (unknown) result=0
+22:49:24.135 <Verbose> Checkpoint started   id: 0x10000063D (unknown)
+22:49:24.141 <Verbose> Checkpoint completed id: 0x10000063D (unknown) result=0
+22:49:24.151 <Verbose> Checkpoint started   id: 0x66F (unknown)
+22:49:24.847 <Verbose> Checkpoint completed id: 0x66F (unknown) result=0
+22:49:24.852 <Verbose> Checkpoint started   id: 0xFFFFFFFF00000674 (unknown)
+22:49:24.853    <Info> Creating Protected Volume (67)
+22:49:25.845 <Verbose> Checkpoint completed id: 0xFFFFFFFF00000674 (unknown) result=0
+22:49:25.850 <Verbose> Checkpoint started   id: 0x10000065F (unknown)
+22:49:30.730 <Verbose> Checkpoint completed id: 0x10000065F (unknown) result=0
+22:49:30.735 <Verbose> Checkpoint started   id: 0x628 (unknown)
+22:49:30.740 <Verbose> Checkpoint started   id: 0xE00 (unknown)
+22:49:30.751    <Info> About to send KernelCache...
+22:49:30.751    <Info> Extracting kernelcache.release.ipad5 (kernelcache.release.ipad5)...
+22:49:30.839    <Info> Personalizing IMG4 component KernelCache...
+22:49:30.851    <Info> Sending KernelCache now...
+22:49:31.726    <Info> Done sending KernelCache
+22:49:32.359    <Info> Installing kernelcache (27)
+22:49:32.438 <Verbose> Checkpoint completed id: 0xE00 (unknown) result=0
+22:49:32.443 <Verbose> Checkpoint started   id: 0xE01 (unknown)
+22:49:32.446    <Info> About to send DeviceTree...
+22:49:32.446    <Info> Extracting DeviceTree.j96ap.im4p (Firmware/all_flash/DeviceTree.j96ap.im4p)...
+22:49:32.446    <Info> Personalizing IMG4 component DeviceTree...
+22:49:32.447    <Info> Sending DeviceTree now...
+22:49:32.447    <Info> Done sending DeviceTree
+22:49:32.451    <Info> Installing DeviceTree (61)
+22:49:32.457 <Verbose> Checkpoint completed id: 0xE01 (unknown) result=0
+22:49:32.462 <Verbose> Checkpoint started   id: 0xE04 (unknown)
+22:49:32.465    <Info> About to send NORData...
+22:49:32.465    <Info> Found firmware path Firmware/all_flash
+22:49:32.465    <Info> Getting firmware manifest from build identity
+22:49:32.465    <Info> Extracting LLB.ipad5.RELEASE.im4p (Firmware/all_flash/LLB.ipad5.RELEASE.im4p)...
+22:49:32.465    <Info> Personalizing IMG4 component LLB...
+22:49:32.465    <Info> Extracting applelogo@2x~ipad.im4p (Firmware/all_flash/applelogo@2x~ipad.im4p)...
+22:49:32.466    <Info> Personalizing IMG4 component AppleLogo...
+22:49:32.466    <Info> Extracting batterycharging0@2x~ipad.im4p (Firmware/all_flash/batterycharging0@2x~ipad.im4p)...
+22:49:32.466    <Info> Personalizing IMG4 component BatteryCharging0...
+22:49:32.466    <Info> Extracting batterycharging1@2x~ipad.im4p (Firmware/all_flash/batterycharging1@2x~ipad.im4p)...
+22:49:32.466    <Info> Personalizing IMG4 component BatteryCharging1...
+22:49:32.466    <Info> Extracting batteryfull@2x~ipad.im4p (Firmware/all_flash/batteryfull@2x~ipad.im4p)...
+22:49:32.467    <Info> Personalizing IMG4 component BatteryFull...
+22:49:32.467    <Info> Extracting batterylow0@2x~ipad.im4p (Firmware/all_flash/batterylow0@2x~ipad.im4p)...
+22:49:32.467    <Info> Personalizing IMG4 component BatteryLow0...
+22:49:32.467    <Info> Extracting batterylow1@2x~ipad.im4p (Firmware/all_flash/batterylow1@2x~ipad.im4p)...
+22:49:32.467    <Info> Personalizing IMG4 component BatteryLow1...
+22:49:32.467    <Info> Extracting glyphplugin@2x~ipad-lightning.im4p (Firmware/all_flash/glyphplugin@2x~ipad-lightning.im4p)...
+22:49:32.468    <Info> Personalizing IMG4 component BatteryPlugin...
+22:49:32.468    <Info> Extracting DeviceTree.j96ap.im4p (Firmware/all_flash/DeviceTree.j96ap.im4p)...
+22:49:32.468    <Info> Personalizing IMG4 component DeviceTree...
+22:49:32.468    <Info> Extracting recoverymode@2x~ipad-lightning.im4p (Firmware/all_flash/recoverymode@2x~ipad-lightning.im4p)...
+22:49:32.470    <Info> Personalizing IMG4 component RecoveryMode...
+22:49:32.470    <Info> Extracting iBoot.ipad5.RELEASE.im4p (Firmware/all_flash/iBoot.ipad5.RELEASE.im4p)...
+22:49:32.471    <Info> Personalizing IMG4 component iBoot...
+22:49:32.471    <Info> Extracting sep-firmware.j96.RELEASE.im4p (Firmware/all_flash/sep-firmware.j96.RELEASE.im4p)...
+22:49:32.473    <Info> Personalizing IMG4 component RestoreSEP...
+22:49:32.473    <Info> Extracting sep-firmware.j96.RELEASE.im4p (Firmware/all_flash/sep-firmware.j96.RELEASE.im4p)...
+22:49:32.476    <Info> Personalizing IMG4 component SEP...
+22:49:32.476    <Info> Sending NORData now...
+22:49:32.843    <Info> Done sending NORData
+22:49:33.294 <Verbose> Checkpoint completed id: 0xE04 (unknown) result=0
+22:49:33.299 <Verbose> Checkpoint started   id: 0xE05 (unknown)
+22:49:33.302    <Info> About to send SystemImageRootHash...
+22:49:33.302    <Info> Extracting 098-68727-067.dmg.root_hash (Firmware/098-68727-067.dmg.root_hash)...
+22:49:33.303    <Info> Personalizing IMG4 component SystemVolume...
+22:49:33.303    <Info> Sending SystemImageRootHash now...
+22:49:33.303    <Info> Done sending SystemImageRootHash
+22:49:33.312 <Verbose> Checkpoint completed id: 0xE05 (unknown) result=0
+22:49:33.317 <Verbose> Checkpoint started   id: 0xE03 (unknown)
+22:49:33.330 <Verbose> Checkpoint completed id: 0xE03 (unknown) result=0
+22:49:33.336 <Verbose> Checkpoint completed id: 0x628 (unknown) result=0
+22:49:33.341 <Verbose> Checkpoint started   id: 0x64D (unknown)
+22:49:33.347 <Verbose> Checkpoint started   id: 0xF00 (unknown)
+22:49:33.348    <Info> Fixing up /var (17)
+22:49:33.349    <Info> Creating system key bag (50)
+22:50:51.483 <Verbose> Checkpoint completed id: 0xF00 (unknown) result=0
+22:50:51.488 <Verbose> Checkpoint started   id: 0xF01 (unknown)
+22:50:51.494 <Verbose> Checkpoint completed id: 0xF01 (unknown) result=0
+22:50:51.499 <Verbose> Checkpoint started   id: 0xF04 (unknown)
+22:50:51.726 <Verbose> Checkpoint completed id: 0xF04 (unknown) result=0
+22:50:51.730 <Verbose> Checkpoint started   id: 0xF09 (unknown)
+22:50:51.847 <Verbose> ReverseProxy[Ctrl]: (status=3) Connect Request
+22:50:51.849 <Verbose> ReverseProxy[Conn]: (status=1) Ready
+22:50:52.009 <Verbose> ReverseProxy[Conn]: (status=2) Terminated
+22:50:52.146 <Verbose> Checkpoint completed id: 0xF09 (unknown) result=0
+22:50:52.152 <Verbose> Checkpoint completed id: 0x64D (unknown) result=0
+22:50:52.156 <Verbose> Checkpoint started   id: 0x69E (unknown)
+22:50:52.265 <Verbose> Checkpoint completed id: 0x69E (unknown) result=0
+22:50:52.270 <Verbose> Checkpoint started   id: 0x58B85BA30000063B (unknown)
+22:50:52.276 <Verbose> Checkpoint completed id: 0x58B85BA30000063B (unknown) result=0
+22:50:52.281 <Verbose> Checkpoint started   id: 0x639 (unknown)
+22:50:52.282    <Info> Modifying persistent boot-args (25)
+22:50:52.390 <Verbose> Checkpoint completed id: 0x639 (unknown) result=0
+22:50:52.395 <Verbose> Checkpoint started   id: 0x58B85BA30000065E (unknown)
+22:50:52.401 <Verbose> Checkpoint completed id: 0x58B85BA30000065E (unknown) result=0
+22:50:52.406 <Verbose> Checkpoint started   id: 0x688 (unknown)
+22:50:53.362 <Verbose> Checkpoint completed id: 0x688 (unknown) result=0
+22:50:53.367 <Verbose> Checkpoint completed id: 0x67B (unknown) result=0
+22:50:53.372 <Verbose> Checkpoint started   id: 0x1600 (unknown)
+22:50:53.378 <Verbose> Checkpoint completed id: 0x1600 (unknown) result=0
+22:50:53.383 <Verbose> Checkpoint started   id: 0x63F (unknown)
+22:50:53.389 <Verbose> Checkpoint completed id: 0x63F (unknown) result=0
+22:50:53.394 <Verbose> Checkpoint started   id: 0x640 (unknown)
+22:50:53.700 <Verbose> Checkpoint completed id: 0x640 (unknown) result=0
+22:50:53.704 <Verbose> Checkpoint started   id: 0x68B (unknown)
+22:50:53.705    <Info> About to send SystemImageCanonicalMetadata...
+22:50:53.705    <Info> Extracting 098-68727-067.dmg.mtree (Firmware/098-68727-067.dmg.mtree)...
+22:50:53.751    <Info> Personalizing IMG4 component Ap,SystemVolumeCanonicalMetadata...
+22:50:53.756    <Info> Sending SystemImageCanonicalMetadata now...
+22:50:54.884    <Info> Done sending SystemImageCanonicalMetadata
+22:54:35.773    <Info> About to send SystemImageRootHash...
+22:54:35.773    <Info> Extracting 098-68727-067.dmg.root_hash (Firmware/098-68727-067.dmg.root_hash)...
+22:54:35.773    <Info> Personalizing IMG4 component SystemVolume...
+22:54:35.773    <Info> Sending SystemImageRootHash now...
+22:54:35.773    <Info> Done sending SystemImageRootHash
+22:54:35.775    <Info> Unmounting filesystems (29)
+22:54:35.777    <Info> Unmounting filesystems (29)
+22:54:35.839    <Info> Unmounting filesystems (29)
+22:54:35.927    <Info> Unmounting filesystems (29)
+22:54:35.929    <Info> Unmounting filesystems (29)
+22:54:36.298    <Info> Sealing System Volume (77)
+22:56:50.507 <Verbose> Checkpoint completed id: 0x68B (unknown) result=0
+22:56:50.512 <Verbose> Checkpoint started   id: 0x669 (unknown)
+22:56:50.942 <Verbose> Checkpoint completed id: 0x669 (unknown) result=0
+22:56:50.948 <Verbose> Checkpoint started   id: 0x100000642 (unknown)
+22:56:50.949    <Info> Unmounting filesystems (29)
+22:56:50.950    <Info> Unmounting filesystems (29)
+22:56:50.951    <Info> Unmounting filesystems (29)
+22:56:50.952    <Info> Unmounting filesystems (29)
+22:56:50.953    <Info> Unmounting filesystems (29)
+22:56:51.026 <Verbose> Checkpoint completed id: 0x100000642 (unknown) result=0
+22:56:51.032 <Verbose> Checkpoint started   id: 0x67C (unknown)
+22:56:51.245 <Verbose> Checkpoint completed id: 0x67C (unknown) result=0
+22:56:51.250 <Verbose> Checkpoint started   id: 0x1613 (unknown)
+22:56:51.255 <Verbose> Checkpoint completed id: 0x1613 (unknown) result=0
+22:56:51.261 <Verbose> Checkpoint started   id: 0x647 (unknown)
+22:56:51.266 <Verbose> Checkpoint completed id: 0x647 (unknown) result=0
+22:56:51.271 <Verbose> Checkpoint started   id: 0x648 (unknown)
+22:56:51.271    <Info> Got status message
+22:56:51.271    <Info> Status: Restore Finished
+22:56:52.195 <Verbose> ReverseProxy[Ctrl]: (status=2) Terminated
+22:56:52.196    <Info> DONE

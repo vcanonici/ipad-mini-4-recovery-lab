@@ -1,0 +1,13 @@
+{"time": 1793399982.6821976, "event": "identity", "info": {"CPID": "0x7000", "CPRV": "0x11", "BDID": "0x08", "ECID": "0x0009754808454226", "CPFM": "0x03", "SCEP": "0x01", "IBFL": "0x1c", "SRTG": "N/A", "SRNM": "F9GSNGW3GHKL", "IMEI": "N/A", "NONC": "959cb238b334f4a6167f0d23b193dc0aac39199a", "SNON": "1c8771ffe3de6f9ef55bffdc10791a4a4c075cc7", "MODE": "Recovery", "PRODUCT": "iPad5,1", "MODEL": "j96ap", "NAME": "iPad mini 4 (WiFi)"}}
+{"time": 1793399982.8950367, "event": "getenv_transfer", "send_result": 0, "read_bytes": 18}
+{"time": 1793399982.8951037, "event": "readback", "transfer_bytes": 18, "value": "iBoot-7459.140.15"}
+{"time": 1793399983.097479, "event": "getenv_transfer", "send_result": 0, "read_bytes": 18}
+{"time": 1793399983.0975475, "event": "readback", "transfer_bytes": 18, "value": "iBoot-7459.140.15"}
+{"time": 1793399983.0975728, "event": "previous_generator", "value": "iBoot-7459.140.15"}
+{"time": 1793399983.0994203, "event": "setenv_return", "result": 0}
+{"time": 1793399983.501581, "event": "getenv_transfer", "send_result": 0, "read_bytes": 19}
+{"time": 1793399983.501642, "event": "readback", "transfer_bytes": 19, "value": "0x858d326c58e5be63"}
+{"time": 1793399983.5055912, "event": "saveenv_return", "result": 0}
+{"time": 1793399983.9077225, "event": "getenv_transfer", "send_result": 0, "read_bytes": 19}
+{"time": 1793399983.9077811, "event": "readback", "transfer_bytes": 19, "value": "0x858d326c58e5be63"}
+{"time": 1793399983.9078338, "event": "generator_saved_readback_verified", "value": "0x858d326c58e5be63", "expected_apnonce": "067fee9d13dbc3ae55163a84cfb5c0631522e1f2", "requires_reload_nonce_verification": true}

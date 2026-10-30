@@ -1,0 +1,424 @@
+22:42:58.608    <Info> Using ApTicket found at ipad-ticket-generator-confirmed-20261030/verified.im4m length 6008
+Using ApTicket found at ipad-ticket-generator-confirmed-20261030/verified.im4m length 6008
+idevicerestore 1.0.0-git-4b3e847 (libirecovery 1.3.1, libtatsu 1.0.5)
+progress: 0 0.000000
+progress: 0 0.100000
+Found device in Restore mode
+INFO: device serial number is F9GSNGW3GHKL
+ECID: 2662227027247654
+progress: 0 0.200000
+Identified device as j96ap, iPad5,1
+Device Product Version: N/A
+Device Product Build: N/A
+progress: 0 0.600000
+Extracting BuildManifest from IPSW
+progress: 0 0.800000
+IPSW Product Version: 15.8.8
+IPSW Product Build: 19H422 Major: 19
+Device supports Image4: true
+Variant: Customer Erase Install (IPSW)
+This restore will erase all device data.
+progress: 1 0.000000
+Checking IPSW for required components...
+All required components found in IPSW
+progress: 1 0.200000
+Getting ApNonce failed
+Device is in an invalid state
+Unable to get nonce from device
+progress: 1 0.250000
+progress: 1 0.300000
+progress: 1 0.500000
+progress: 1 0.700000
+progress: 1 0.900000
+About to restore device... 
+Connecting now...
+Connected to com.apple.mobile.restored, version 15
+Device SSHRD_Script Sep 22 2022 18:56:50 has successfully entered restore mode
+Hardware Information:
+BoardID: 8
+ChipID: 28672
+UniqueChipID: 2662227027247654
+ProductionMode: true
+Previous restore exit status: 0x100
+Starting Reverse Proxy
+Device will not use nonce slots.
+progress: 1 1.000000
+About to send RootTicket...
+Sending RootTicket now...
+Done sending RootTicket
+Waiting for NAND (28)
+About to send NORData...
+Found firmware path Firmware/all_flash
+Getting firmware manifest from build identity
+Extracting LLB.ipad5.RELEASE.im4p (Firmware/all_flash/LLB.ipad5.RELEASE.im4p)...
+Personalizing IMG4 component LLB...
+Extracting applelogo@2x~ipad.im4p (Firmware/all_flash/applelogo@2x~ipad.im4p)...
+Personalizing IMG4 component AppleLogo...
+Extracting batterycharging0@2x~ipad.im4p (Firmware/all_flash/batterycharging0@2x~ipad.im4p)...
+Personalizing IMG4 component BatteryCharging0...
+Extracting batterycharging1@2x~ipad.im4p (Firmware/all_flash/batterycharging1@2x~ipad.im4p)...
+Personalizing IMG4 component BatteryCharging1...
+Extracting batteryfull@2x~ipad.im4p (Firmware/all_flash/batteryfull@2x~ipad.im4p)...
+Personalizing IMG4 component BatteryFull...
+Extracting batterylow0@2x~ipad.im4p (Firmware/all_flash/batterylow0@2x~ipad.im4p)...
+Personalizing IMG4 component BatteryLow0...
+Extracting batterylow1@2x~ipad.im4p (Firmware/all_flash/batterylow1@2x~ipad.im4p)...
+Personalizing IMG4 component BatteryLow1...
+Extracting glyphplugin@2x~ipad-lightning.im4p (Firmware/all_flash/glyphplugin@2x~ipad-lightning.im4p)...
+Personalizing IMG4 component BatteryPlugin...
+Extracting DeviceTree.j96ap.im4p (Firmware/all_flash/DeviceTree.j96ap.im4p)...
+Personalizing IMG4 component DeviceTree...
+Extracting recoverymode@2x~ipad-lightning.im4p (Firmware/all_flash/recoverymode@2x~ipad-lightning.im4p)...
+Personalizing IMG4 component RecoveryMode...
+Extracting iBoot.ipad5.RELEASE.im4p (Firmware/all_flash/iBoot.ipad5.RELEASE.im4p)...
+Personalizing IMG4 component iBoot...
+Extracting sep-firmware.j96.RELEASE.im4p (Firmware/all_flash/sep-firmware.j96.RELEASE.im4p)...
+Personalizing IMG4 component RestoreSEP...
+Extracting sep-firmware.j96.RELEASE.im4p (Firmware/all_flash/sep-firmware.j96.RELEASE.im4p)...
+Personalizing IMG4 component SEP...
+Sending NORData now...
+Done sending NORData
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+About to send FDR Trust data...
+Sending FDR Trust data now...
+Done sending FDR Trust Data
+Checking for uncollected logs (44)
+Checking for uncollected logs (44)
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Creating partition map (11)
+Creating filesystem (12)
+About to send filesystem...
+Connected to ASR
+Validating the filesystem
+Filesystem validated
+Sending filesystem now...
+progress: 2 0.010025
+progress: 2 0.020023
+progress: 2 0.030022
+progress: 2 0.040020
+progress: 2 0.050018
+progress: 2 0.060016
+progress: 2 0.070014
+progress: 2 0.080012
+progress: 2 0.090010
+progress: 2 0.100008
+progress: 2 0.110006
+progress: 2 0.120004
+progress: 2 0.130002
+progress: 2 0.140000
+progress: 2 0.150026
+progress: 2 0.160024
+progress: 2 0.170022
+progress: 2 0.180020
+progress: 2 0.190018
+progress: 2 0.200016
+progress: 2 0.210014
+progress: 2 0.220012
+progress: 2 0.230010
+progress: 2 0.240008
+progress: 2 0.250006
+progress: 2 0.260004
+progress: 2 0.270002
+progress: 2 0.280000
+progress: 2 0.290026
+progress: 2 0.300024
+progress: 2 0.310022
+progress: 2 0.320020
+progress: 2 0.330018
+progress: 2 0.340016
+progress: 2 0.350014
+progress: 2 0.360012
+progress: 2 0.370010
+progress: 2 0.380008
+progress: 2 0.390006
+progress: 2 0.400004
+progress: 2 0.410002
+progress: 2 0.420000
+progress: 2 0.430026
+progress: 2 0.440024
+progress: 2 0.450022
+progress: 2 0.460020
+progress: 2 0.470018
+progress: 2 0.480016
+progress: 2 0.490014
+progress: 2 0.500012
+progress: 2 0.510010
+progress: 2 0.520008
+progress: 2 0.530006
+progress: 2 0.540004
+progress: 2 0.550002
+progress: 2 0.560000
+progress: 2 0.570026
+progress: 2 0.580024
+progress: 2 0.590022
+progress: 2 0.600020
+progress: 2 0.610018
+progress: 2 0.620016
+progress: 2 0.630014
+progress: 2 0.640012
+progress: 2 0.650010
+progress: 2 0.660008
+progress: 2 0.670006
+progress: 2 0.680004
+progress: 2 0.690002
+progress: 2 0.700000
+progress: 2 0.710026
+progress: 2 0.720024
+progress: 2 0.730022
+progress: 2 0.740020
+progress: 2 0.750018
+progress: 2 0.760016
+progress: 2 0.770014
+progress: 2 0.780012
+progress: 2 0.790010
+progress: 2 0.800008
+progress: 2 0.810006
+progress: 2 0.820004
+progress: 2 0.830003
+progress: 2 0.840001
+progress: 2 0.850026
+progress: 2 0.860024
+progress: 2 0.870022
+progress: 2 0.880020
+progress: 2 0.890018
+progress: 2 0.900016
+progress: 2 0.910014
+progress: 2 0.920012
+progress: 2 0.930010
+progress: 2 0.940008
+progress: 2 0.950007
+progress: 2 0.960005
+progress: 2 0.970003
+progress: 2 0.980001
+progress: 2 0.990026
+progress: 2 1.000000
+Done sending filesystem
+Verifying restore (14)
+progress: 3 0.020000
+progress: 3 0.040000
+progress: 3 0.060000
+progress: 3 0.080000
+progress: 3 0.100000
+progress: 3 0.120000
+progress: 3 0.140000
+progress: 3 0.160000
+progress: 3 0.180000
+progress: 3 0.200000
+progress: 3 0.220000
+progress: 3 0.240000
+progress: 3 0.260000
+progress: 3 0.280000
+progress: 3 0.300000
+progress: 3 0.320000
+progress: 3 0.340000
+progress: 3 0.360000
+progress: 3 0.380000
+progress: 3 0.400000
+progress: 3 0.420000
+progress: 3 0.440000
+progress: 3 0.460000
+progress: 3 0.480000
+progress: 3 0.500000
+progress: 3 0.520000
+progress: 3 0.540000
+progress: 3 0.560000
+progress: 3 0.580000
+progress: 3 0.600000
+progress: 3 0.620000
+progress: 3 0.640000
+progress: 3 0.660000
+progress: 3 0.680000
+progress: 3 0.700000
+progress: 3 0.720000
+progress: 3 0.740000
+progress: 3 0.760000
+progress: 3 0.780000
+progress: 3 0.800000
+progress: 3 0.820000
+progress: 3 0.840000
+progress: 3 0.860000
+progress: 3 0.880000
+progress: 3 0.900000
+progress: 3 0.920000
+progress: 3 0.940000
+progress: 3 0.960000
+progress: 3 0.980000
+progress: 3 1.000000
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Checking filesystems (15)
+Checking filesystems (15)
+Checking filesystems (15)
+Mounting filesystems (16)
+Mounting filesystems (16)
+Mounting filesystems (16)
+Unknown operation (80)
+Sending IsiBootEANFirmware image list
+Sending IsiBootNonEssentialFirmware image list
+Flashing firmware (18)
+progress: 4 1.000000
+Unknown operation (80)
+Sending IsEarlyAccessFirmware image list
+Sending IsiBootEANFirmware image list
+Sending IsiBootNonEssentialFirmware image list
+Requesting FUD data (36)
+progress: 6 0.010000
+Found IsFUDFirmware component Ap,SystemVolumeCanonicalMetadata
+Found IsFUDFirmware component RestoreTrustCache
+Found IsFUDFirmware component StaticTrustCache
+Found IsFUDFirmware component SystemVolume
+Sending IsFUDFirmware image list
+Extracting 098-68727-067.dmg.mtree (Firmware/098-68727-067.dmg.mtree)...
+Personalizing IMG4 component Ap,SystemVolumeCanonicalMetadata...
+Sending IsFUDFirmware for Ap,SystemVolumeCanonicalMetadata...
+progress: 6 0.250000
+Extracting 098-68700-067.dmg.trustcache (Firmware/098-68700-067.dmg.trustcache)...
+Personalizing IMG4 component RestoreTrustCache...
+Sending IsFUDFirmware for RestoreTrustCache...
+progress: 6 0.500000
+Extracting 098-68727-067.dmg.trustcache (Firmware/098-68727-067.dmg.trustcache)...
+Personalizing IMG4 component StaticTrustCache...
+Sending IsFUDFirmware for StaticTrustCache...
+progress: 6 0.750000
+Extracting 098-68727-067.dmg.root_hash (Firmware/098-68727-067.dmg.root_hash)...
+Personalizing IMG4 component SystemVolume...
+Sending IsFUDFirmware for SystemVolume...
+progress: 6 1.000000
+Updating gas gauge software (47)
+Updating gas gauge software (47)
+Updating Stockholm (55)
+Updating Stockholm (55)
+Updating Stockholm (55)
+Updating Stockholm (55)
+Updating Stockholm (55)
+Updating Stockholm (55)
+Requesting FUD data (36)
+progress: 6 0.010000
+Found IsFUDFirmware component Ap,SystemVolumeCanonicalMetadata
+Found IsFUDFirmware component RestoreTrustCache
+Found IsFUDFirmware component StaticTrustCache
+Found IsFUDFirmware component SystemVolume
+Sending IsFUDFirmware image list
+Extracting 098-68727-067.dmg.mtree (Firmware/098-68727-067.dmg.mtree)...
+Personalizing IMG4 component Ap,SystemVolumeCanonicalMetadata...
+Sending IsFUDFirmware for Ap,SystemVolumeCanonicalMetadata...
+progress: 6 0.250000
+Extracting 098-68700-067.dmg.trustcache (Firmware/098-68700-067.dmg.trustcache)...
+Personalizing IMG4 component RestoreTrustCache...
+Sending IsFUDFirmware for RestoreTrustCache...
+progress: 6 0.500000
+progress: 6 0.750000
+Extracting 098-68727-067.dmg.root_hash (Firmware/098-68727-067.dmg.root_hash)...
+Personalizing IMG4 component SystemVolume...
+Sending IsFUDFirmware for SystemVolume...
+progress: 6 1.000000
+Updating SE Firmware (59)
+Sending FirmwareResponsePreflight now...
+Done sending FirmwareUpdaterPreflight response
+Updating SE Firmware (59)
+Sending FirmwareResponsePreflight now...
+Done sending FirmwareUpdaterPreflight response
+Updating SE Firmware (59)
+Sending FirmwareResponsePreflight now...
+Done sending FirmwareUpdaterPreflight response
+Updating SE Firmware (59)
+Sending FirmwareResponsePreflight now...
+Done sending FirmwareUpdaterPreflight response
+Updating SE Firmware (59)
+Sending FirmwareResponsePreflight now...
+Done sending FirmwareUpdaterPreflight response
+Updating SE Firmware (59)
+Sending FirmwareResponsePreflight now...
+Done sending FirmwareUpdaterPreflight response
+Updating Veridian (66)
+Unknown operation (79)
+Unknown operation (82)
+Requesting EAN Data (74)
+Creating Protected Volume (67)
+About to send KernelCache...
+Extracting kernelcache.release.ipad5 (kernelcache.release.ipad5)...
+Personalizing IMG4 component KernelCache...
+Sending KernelCache now...
+Done sending KernelCache
+Installing kernelcache (27)
+About to send DeviceTree...
+Extracting DeviceTree.j96ap.im4p (Firmware/all_flash/DeviceTree.j96ap.im4p)...
+Personalizing IMG4 component DeviceTree...
+Sending DeviceTree now...
+Done sending DeviceTree
+Installing DeviceTree (61)
+About to send NORData...
+Found firmware path Firmware/all_flash
+Getting firmware manifest from build identity
+Extracting LLB.ipad5.RELEASE.im4p (Firmware/all_flash/LLB.ipad5.RELEASE.im4p)...
+Personalizing IMG4 component LLB...
+Extracting applelogo@2x~ipad.im4p (Firmware/all_flash/applelogo@2x~ipad.im4p)...
+Personalizing IMG4 component AppleLogo...
+Extracting batterycharging0@2x~ipad.im4p (Firmware/all_flash/batterycharging0@2x~ipad.im4p)...
+Personalizing IMG4 component BatteryCharging0...
+Extracting batterycharging1@2x~ipad.im4p (Firmware/all_flash/batterycharging1@2x~ipad.im4p)...
+Personalizing IMG4 component BatteryCharging1...
+Extracting batteryfull@2x~ipad.im4p (Firmware/all_flash/batteryfull@2x~ipad.im4p)...
+Personalizing IMG4 component BatteryFull...
+Extracting batterylow0@2x~ipad.im4p (Firmware/all_flash/batterylow0@2x~ipad.im4p)...
+Personalizing IMG4 component BatteryLow0...
+Extracting batterylow1@2x~ipad.im4p (Firmware/all_flash/batterylow1@2x~ipad.im4p)...
+Personalizing IMG4 component BatteryLow1...
+Extracting glyphplugin@2x~ipad-lightning.im4p (Firmware/all_flash/glyphplugin@2x~ipad-lightning.im4p)...
+Personalizing IMG4 component BatteryPlugin...
+Extracting DeviceTree.j96ap.im4p (Firmware/all_flash/DeviceTree.j96ap.im4p)...
+Personalizing IMG4 component DeviceTree...
+Extracting recoverymode@2x~ipad-lightning.im4p (Firmware/all_flash/recoverymode@2x~ipad-lightning.im4p)...
+Personalizing IMG4 component RecoveryMode...
+Extracting iBoot.ipad5.RELEASE.im4p (Firmware/all_flash/iBoot.ipad5.RELEASE.im4p)...
+Personalizing IMG4 component iBoot...
+Extracting sep-firmware.j96.RELEASE.im4p (Firmware/all_flash/sep-firmware.j96.RELEASE.im4p)...
+Personalizing IMG4 component RestoreSEP...
+Extracting sep-firmware.j96.RELEASE.im4p (Firmware/all_flash/sep-firmware.j96.RELEASE.im4p)...
+Personalizing IMG4 component SEP...
+Sending NORData now...
+Done sending NORData
+About to send SystemImageRootHash...
+Extracting 098-68727-067.dmg.root_hash (Firmware/098-68727-067.dmg.root_hash)...
+Personalizing IMG4 component SystemVolume...
+Sending SystemImageRootHash now...
+Done sending SystemImageRootHash
+Fixing up /var (17)
+Creating system key bag (50)
+Modifying persistent boot-args (25)
+About to send SystemImageCanonicalMetadata...
+Extracting 098-68727-067.dmg.mtree (Firmware/098-68727-067.dmg.mtree)...
+Personalizing IMG4 component Ap,SystemVolumeCanonicalMetadata...
+Sending SystemImageCanonicalMetadata now...
+Done sending SystemImageCanonicalMetadata
+About to send SystemImageRootHash...
+Extracting 098-68727-067.dmg.root_hash (Firmware/098-68727-067.dmg.root_hash)...
+Personalizing IMG4 component SystemVolume...
+Sending SystemImageRootHash now...
+Done sending SystemImageRootHash
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Sealing System Volume (77)
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Unmounting filesystems (29)
+Got status message
+Status: Restore Finished
+DONE
+progress: 7 1.000000

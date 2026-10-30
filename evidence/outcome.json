@@ -1,0 +1,16 @@
+{
+  "device": "iPad mini 4 Wi-Fi / iPad5,1 / j96ap",
+  "firmware": "15.8.8 / 19H422",
+  "restore_protocol": "completed successfully; client exit 0",
+  "stored_component_audit": "passed; official payloads and aligned IM4R/IM4M, ART and Preboot",
+  "normal_boot": "confirmed by owner after charging",
+  "confirmation_original_pt": "bootou e ta a funcionar... vou deixar carregar e depois vou configurar",
+  "confirmation_source": "Owner message in the recovery session on 2026-10-30",
+  "configuration": "deferred by owner until charged",
+  "not_independently_verified": [
+    "activation completion",
+    "all hardware features",
+    "battery health",
+    "long-term stability"
+  ]
+}

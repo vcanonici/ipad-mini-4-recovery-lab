@@ -1,0 +1,18 @@
+[
+  {
+    "file": "ipad-ticket-generator-confirmed-20261030/audit/LLB-installed.img4",
+    "image_sha256": "1e3233ae52e7c8da54827c42295d837296a49314be9100eb96dd429eabb96dd9",
+    "bncn": "63bee5586c328d85",
+    "sha1_bncn": "067fee9d13dbc3ae55163a84cfb5c0631522e1f2",
+    "bnch": "067fee9d13dbc3ae55163a84cfb5c0631522e1f2",
+    "matches": true
+  },
+  {
+    "file": "ipad-ticket-generator-confirmed-20261030/audit/iBoot-installed.img4",
+    "image_sha256": "f182877a0eee3adafd021bb1b3f1157400654fc5d95a1c59248071588bc4e912",
+    "bncn": "63bee5586c328d85",
+    "sha1_bncn": "067fee9d13dbc3ae55163a84cfb5c0631522e1f2",
+    "bnch": "067fee9d13dbc3ae55163a84cfb5c0631522e1f2",
+    "matches": true
+  }
+]

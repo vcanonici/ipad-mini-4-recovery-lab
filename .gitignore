@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.local/
+*.ipsw
+*.dmg
+*.im4p
+*.img4
+*.im4m
+*.shsh*
+*.bin
+*.o
+*.dylib
+read-boot-context

@@ -1,0 +1,24 @@
+{
+  "components": [
+    {
+      "component": "LLB",
+      "ticket_sha1": "55e9f7a41cf94dcae269a6596599153db2fa4e3d",
+      "official_payload_matches": true,
+      "stored_image_size": 213531
+    },
+    {
+      "component": "iBoot",
+      "ticket_sha1": "55e9f7a41cf94dcae269a6596599153db2fa4e3d",
+      "official_payload_matches": true,
+      "stored_image_size": 801419
+    },
+    {
+      "component": "SEP",
+      "ticket_sha1": "55e9f7a41cf94dcae269a6596599153db2fa4e3d",
+      "official_payload_matches": true,
+      "stored_image_size": 2730117
+    }
+  ],
+  "art_matches_ticket": true,
+  "active_preboot_matches_ticket": true
+}

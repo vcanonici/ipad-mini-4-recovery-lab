@@ -1,0 +1,10 @@
+{
+  "ticket": "ipad-ticket-runtime-aligned-20261030/verified.im4m",
+  "ticket_sha1": "90affe1d2c4422959301f4cf8ae2b42abc5588c8",
+  "runtime_manifest_hash": "63f4c02000efdbd486f301f0d9f16f482ffc6077",
+  "runtime_bncn": "63bee5586c328d85",
+  "runtime_bncn_sha1": "067fee9d13dbc3ae55163a84cfb5c0631522e1f2",
+  "runtime_manifest_matches": false,
+  "runtime_bncn_matches_ticket": true,
+  "allows_restore_preflight": false
+}

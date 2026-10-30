@@ -1,0 +1,10 @@
+{
+  "ticket": "ipad-ticket-generator-confirmed-20261030/verified.im4m",
+  "ticket_sha1": "55e9f7a41cf94dcae269a6596599153db2fa4e3d",
+  "runtime_manifest_hash": "55e9f7a41cf94dcae269a6596599153db2fa4e3d",
+  "runtime_bncn": "63bee5586c328d85",
+  "runtime_bncn_sha1": "067fee9d13dbc3ae55163a84cfb5c0631522e1f2",
+  "runtime_manifest_matches": true,
+  "runtime_bncn_matches_ticket": true,
+  "allows_restore_preflight": true
+}

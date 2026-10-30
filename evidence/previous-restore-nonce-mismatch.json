@@ -1,0 +1,18 @@
+[
+  {
+    "file": "ipad-diagnostic-session.cULZ5m/LLB-installed.img4",
+    "image_sha256": "ade741b2f8133fda84bf5076ce5d185c5ac8a542a66b6e940d6abc5504e2d605",
+    "bncn": "1e00573fd19f2d08",
+    "sha1_bncn": "2e78aecb48fd08151ad6e60eabea5122d44fb4fb",
+    "bnch": "ffe664e35d778e6d9853adc52cbf7778fd27a636",
+    "matches": false
+  },
+  {
+    "file": "ipad-diagnostic-session.cULZ5m/iBoot-installed.img4",
+    "image_sha256": "1d46672d5034d628727a308e83a100556407fd51b4268c8a0fb86a8587c36c70",
+    "bncn": "1e00573fd19f2d08",
+    "sha1_bncn": "2e78aecb48fd08151ad6e60eabea5122d44fb4fb",
+    "bnch": "ffe664e35d778e6d9853adc52cbf7778fd27a636",
+    "matches": false
+  }
+]
